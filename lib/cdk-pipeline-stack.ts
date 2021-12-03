@@ -34,7 +34,8 @@ export class CdkPipelineStack extends Stack {
         owner: 'krishnapratapsingh',
         repo: 'cdk-pipeline',
         branch: GIT_BRANCH,
-        connectionArn: "arn:aws:codestar-connections:us-east-1:637791486797:connection/74a184e0-e9c0-46a3-bba4-f25d5b0c27e2",//gitHubConnectionArn,
+        //connectionArn: "arn:aws:codestar-connections:us-east-1:637791486797:connection/74a184e0-e9c0-46a3-bba4-f25d5b0c27e2",//gitHubConnectionArn,
+        connectionArn: "arn:aws:codestar-connections:us-east-1:174020875537:connection/7f7328c2-6e15-4599-a586-ea6acb9260ee",//gitHubConnectionArn,
         output: repoSourceArtifact,
       }),
 
