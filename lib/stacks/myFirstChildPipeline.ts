@@ -23,7 +23,7 @@ export class FirstCftPipelineStack extends Stack {
       owner: 'krishnapratapsingh',
       repo: 'cdk-firstchild',
       branch: GIT_BRANCH,
-      connectionArn: 'arn:aws:codestar-connections:us-east-1:637791486797:connection/070063ed-8fe5-4449-8f54-3cdb9fb23c9',
+      connectionArn: 'arn:aws:codestar-connections:us-east-1:174020875537:connection/7f7328c2-6e15-4599-a586-ea6acb9260ee',
       output: repoSourceArtifact,
     });
 
